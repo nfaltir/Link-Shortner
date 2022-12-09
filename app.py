@@ -14,7 +14,7 @@ hide_st_style = """
 
 urlshortner = pyshort.Shortener()
 
-st.markdown("<h1 style='text-align:center;'>Link Shortner</h1", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align:center;'>Short Url</h1", unsafe_allow_html=True)
 
 #form object
 form = st.form("name")

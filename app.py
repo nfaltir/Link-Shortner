@@ -1,7 +1,16 @@
 import streamlit as st
 import pyshorteners as pyshort
 
-
+#streamlit config
+st.set_page_config(page_title="Short Url", page_icon="✂")
+# ---- HIDE STREAMLIT STYLE ----
+hide_st_style = """
+            <style>
+         
+            footer {visibility: hidden;}
+           
+            </style>
+            """
 
 urlshortner = pyshort.Shortener()
 

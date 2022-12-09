@@ -24,6 +24,6 @@ app_btn = form.form_submit_button("Generate")
 #check if btn was clicked
 if app_btn:
     short_url = urlshortner.tinyurl.short(url)
-    st.markdown("<h2 style='text-align:center;'>Copy Url</h2", unsafe_allow_html=True)
+    st.markdown("<h3 style='text-align:center;'>Copy Url</h3", unsafe_allow_html=True)
     st.code(short_url)
   
